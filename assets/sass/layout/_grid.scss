@@ -16,6 +16,10 @@
 [class^="col-"]{
     padding : 0 15px;
 }
+
+.col-3{
+    flex: 0 0 25%;
+}
 .col-6{
     flex : 0 0 50%;
 }
