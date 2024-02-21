@@ -127,6 +127,10 @@ body {
   text-align: center;
 }
 
+.mb-4 {
+  margin-bottom: 2.5rem;
+}
+
 .btn, .btn:link, .btn:visited {
   cursor: pointer;
   display: inline-block;
@@ -484,6 +488,76 @@ body {
   opacity: 1;
 }
 
+.book {
+  background-image: linear-gradient(106deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url("/assets/css/images/nat-10.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 1rem 2.5rem rgba(#000, 0.2);
+          box-shadow: 0 1rem 2.5rem rgba(#000, 0.2);
+}
+
+.book-form {
+  padding: 3.75rem 2.5rem;
+}
+
+.form-control {
+  display: block;
+  width: 45%;
+  padding: 1rem 1.25rem;
+  border-radius: 2px;
+  border: none;
+  color: inherit;
+  font-size: inherit;
+  outline: none;
+  border-bottom: 3px solid transparent;
+}
+.form-control:focus {
+  border-bottom: 3px solid yellowgreen;
+}
+.form-control:focus:invalid {
+  border-bottom: 3px solid red;
+}
+.form-control::-webkit-input-placeholder {
+  color: #eee;
+}
+.form-control::-moz-placeholder {
+  color: #eee;
+}
+.form-control:-ms-input-placeholder {
+  color: #eee;
+}
+.form-control::-ms-input-placeholder {
+  color: #eee;
+}
+.form-control::placeholder {
+  color: #eee;
+}
+.form-control + label {
+  padding: 7px 0 0 20px;
+  display: block;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  opacity: 1;
+}
+.form-control:-moz-placeholder-shown + label {
+  transform: translateY(-48px);
+  visibility: hidden;
+  opacity: 0;
+}
+.form-control:-ms-input-placeholder + label {
+  transform: translateY(-48px);
+  visibility: hidden;
+  opacity: 0;
+}
+.form-control:placeholder-shown + label {
+  -webkit-transform: translateY(-48px);
+          transform: translateY(-48px);
+  visibility: hidden;
+  opacity: 0;
+}
+
 .container {
   max-width: 71.25rem;
   width: 100%;
@@ -611,5 +685,11 @@ body {
 .section-stories {
   padding: 9.3775rem 0;
   position: relative;
+}
+
+.section-book {
+  padding: 9.375rem 0;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#7ed56f), to(#28b485));
+  background-image: linear-gradient(to right bottom, #7ed56f, #28b485);
 }
 /*# sourceMappingURL=style.css.map */

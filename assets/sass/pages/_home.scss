@@ -32,7 +32,12 @@
 }
 
 .section-stories{
-         padding: 9.3775rem 0;
+        padding: 9.3775rem 0;
         position: relative;
 
+}
+
+.section-book{
+    padding: 9.375rem 0;
+    @include lg(to right bottom, $color-primary-light, $color-primary-dark);
 }
